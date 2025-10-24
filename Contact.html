@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="Contact.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "ETRaL2xHFo_9Cgtyf",
+      });
+   })();
+</script>
+
+</head>
+<body>
+     <header class="head">
+        <nav class="n">
+            <div class="left">Moumish's Porfolio</div>
+
+            <div class="right">
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+                <div class="toggle1">
+                    <div class="b"><i class="fa-solid fa-bars"></i></div>
+                </div>
+            </div>
+        </nav>
+     </header> 
+     <main>
+        <span id="element"></span>
+        <!-- <p class="top1">Have something in mind? Drop me a message!</p> -->
+        <section class="contact">
+  <div class="contact-box left1">
+  <h2>Get In Touch</h2>
+  <hr>
+
+  <p><i class="fa-solid fa-phone-volume"></i>PHONE: +91-7439986233</p>
+  <p><i class="fas fa-envelope"></i>EMAIL: <a href="mailto:moumishsarkar@gmail.com">moumishsarkar@gmail.com</a></p>
+  <p><i class="fas fa-map-marker-alt"></i>LOCATION: Madanpur Nadia, West Bengal</p>
+<!-- </div> -->
+
+</div>
+
+   
+
+  <div class="right2">
+  <form  class= "form-right"action="#" method="post">
+    <!-- <label for="name" class="correct">Your Name:</label> -->
+    <input  class="correct" type="text" id="name" name="name" placeholder="Full Name" required>
+
+    <!-- <label for="email"  class="correct">Your Email:</label> -->
+    <input  class="correct" type="email" id="email" name="email" placeholder="Email" required>
+
+    <!-- <label for="message"  class="correct">Your Message:</label> -->
+    <textarea  class="correct" id="message" name="message" rows="7" placeholder="Write your message..." required></textarea>
+
+    
+  </form>
+  <button type="button" class="btn" onclick="sendMail()">Send Message</button>
+  </div>
+</section>
+
+     </main>
+    <footer>
+        <div class="up">
+            <div class="name"> <h3>Moumish's Portfolio</h3></div>
+            <div class="content">Explore my work — a collection of projects built with dedication, creativity, and an eye for detail that brings ideas to life.</div>
+            <div class="social">
+                <ul>
+                   <li><a href="https://www.linkedin.com/in/moumish-sarkar-705121193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+                    <li><a href="https://github.com/Moumish-Sarkar" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
+                    <li><a href="https://www.instagram.com/moumish.sarkar?igsh=MWZpamNnMjJwNXRodQ==" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                    <li><a href="https://www.facebook.com/share/17eKWY6tNP/" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="down">©2025 Moumish Sarkar. Crafted with clean code</div>
+    
+    </footer>
+    <script src="script.js"></script>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['Have something in mind? Drop me a message!','You’ll hear from me soon!'],
+      typeSpeed: 65,
+          backDelay: 1600, 
+            loop: true  
+      
+    });
+  </script>
+
+  <script src="toggle.js"></script>
+</body>
+</html>
