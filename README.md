@@ -1,5 +1,5 @@
 
-**Personal Portfolio Website**       
+#Personal Portfolio Website       
 
 A personal website developed to present my professional information, technical skills, and showcased projects in a clear and visually appealing format.
 
@@ -8,5 +8,6 @@ A personal website developed to present my professional information, technical s
 * Incorporated structured sections, interactive navigation, and consistent styling for a professional browsing experience.
 * Deployed the website through GitHub Pages, enabling fast access and easy portfolio sharing with recruiters and interviewers.
 
-**Skills Used:** HTML | CSS | JavaScript | Responsive Web Design  | GitHub Pages | Website Deployment
+##Skills Used:
+HTML | CSS | JavaScript | Responsive Web Design  | GitHub Pages | Website Deployment
 
