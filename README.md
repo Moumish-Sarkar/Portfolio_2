@@ -1,5 +1,6 @@
 
-**Personal Portfolio Website**                     
+**Personal Portfolio Website**       
+
 A personal website developed to present my professional information, technical skills, and showcased projects in a clear and visually appealing format.
 
 * Created a modern and organized user interface using HTML, CSS, and JavaScript to highlight projects, achievements, and ways to contact me.
