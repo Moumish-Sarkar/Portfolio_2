@@ -1,4 +1,3 @@
----
 
 **Personal Portfolio Website**                     
 A personal website developed to present my professional information, technical skills, and showcased projects in a clear and visually appealing format.
@@ -10,4 +9,3 @@ A personal website developed to present my professional information, technical s
 
 **Skills Used:** HTML | CSS | JavaScript | Responsive Web Design  | GitHub Pages | Website Deployment
 
----
